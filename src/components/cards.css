@@ -1,0 +1,63 @@
+:root {
+    /* ### Primary */
+    --Marine-blue: hsl(213, 96%, 18%);
+    --Purplish-blue: hsl(243, 100%, 62%);
+    --Pastel-blue: hsl(228, 100%, 84%);
+    --Light-blue: hsl(206, 94%, 87%);
+    --Strawberry-red: hsl(354, 84%, 57%);
+  
+    /* ### Neutral */
+    --Cool-gray: hsl(231, 11%, 63%);
+    --Light-gray: hsl(229, 24%, 87%);
+    --Magnolia: hsl(217, 100%, 97%);
+    --Alabaster: hsl(231, 100%, 99%);
+    --White: hsl(0, 0%, 100%);
+  }
+
+.card {
+    /* height: 160px; */
+    width: 140px;
+    padding-left: 15px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: solid 1px var(--Light-gray);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+    /* outline: solid 1px red; */
+}
+
+.card:hover {
+    /* background-color: var(--Alabaster); */
+    border-color: var(--Marine-blue);
+}
+
+.card-logo {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2.8em;
+    /* outline: solid 1px red; */
+}
+
+.card-title {
+    width: 100%;
+    color: var(--Marine-blue);
+    font-weight: 500;
+    /* outline: solid 1px red; */
+}
+
+.card-price {
+    /* width: 100%; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 1em; */
+    color: var(--Cool-gray);
+    /* outline: solid 1px red; */
+}
+
+.two-month-free {
+    color: var(--Marine-blue);
+    font-size: 0.9em;
+}

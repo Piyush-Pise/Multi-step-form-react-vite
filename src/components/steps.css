@@ -1,0 +1,57 @@
+:root {
+    --Cool-gray: hsl(231, 11%, 63%);
+}
+
+.step-container {
+    display: flex;
+    /* height: 35px; */
+    width: 100%;
+    padding-bottom: 30px;
+    /* outline: solid 1px red; */
+    gap: 16px;
+}
+
+
+.icon-number {
+    height: 35px;
+    width: 35px;
+    /* background-color: transparent; */
+    font-size: 1.1em;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    z-index: 10;
+    /* outline: solid 1px red; */
+}
+.right-container {
+    translate: 0 -0.1em;
+    display: flex;
+    flex-direction: column;
+    /* outline: solid 1px red; */
+}
+
+.step-no {
+    margin-top:0;
+    /* justify-self: flex-start; */
+    font-size: 0.75em;
+    /* color: var(--Cool-gray); */
+    font-weight: 400;
+    /* letter-spacing: 1px; */
+    /* outline: solid 1px red; */
+
+} 
+
+.text {
+    /* translate: 0 -0.1em; */
+    font-weight: 700;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    /* justify-self: flex-end; */
+    color: white;
+    /* outline: solid 1px red; */
+
+}
