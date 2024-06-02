@@ -13,7 +13,7 @@ This project is a multi-step form built with ReactJS and vite. The form guides u
 
 ## Demo
 
-You can view a live demo of the project [here](https://piyush-pise.github.io/multi-step-form-react-vite/).
+You can view a live demo of the project [here](https://piyush-pise.github.io/Multi-step-form-react-vite/).
 
 ## Features
 
